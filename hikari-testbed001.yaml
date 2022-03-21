@@ -1,0 +1,51 @@
+testbed:
+    name: NXOS_testbed
+    credentials:
+        default:
+            username: admin
+            password: cisco
+        enable:
+            password: cisco
+devices:
+  nxos0:
+    connections:
+      cli:
+        ip: 192.168.100.1
+        protocol: ssh
+    os: nxos
+    type: nxos
+  nxos1:
+    connections:
+      cli:
+        ip: 192.168.100.2
+        protocol: ssh
+    os: nxos
+    type: nxos
+  nxos2:
+    connections:
+      cli:
+        ip: 192.168.100.3
+        protocol: ssh
+    os: nxos
+    type: nxos
+  nxos3:
+    connections:
+      cli:
+        ip: 192.168.100.4
+        protocol: ssh
+    os: nxos
+    type: nxos
+  R1:
+    connections:
+      cli:
+        ip: 192.168.100.101
+        protocol: ssh
+    os: ios
+    type: ios
+  R3:
+    connections:
+      cli:
+        ip: 192.168.100.103
+        protocol: ssh
+    os: ios
+    type: ios

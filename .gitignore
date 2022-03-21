@@ -1,5 +1,6 @@
 examples
 .idea
+.virl
 *.json
 out*
 pre*

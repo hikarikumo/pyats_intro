@@ -1,0 +1,360 @@
+testbed:
+  name: NXOS simple lab 002
+devices:
+  terminal_server:
+    os: linux
+    type: linux
+    credentials:
+      default:
+        username: admin
+        password: Cdtn.#1979
+    connections:
+      cli:
+        protocol: ssh
+        ip: ciscolabs.hikarikumo.ru
+  nxos0:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      defaults:
+        class: unicon.Unicon
+      a:
+        protocol: telnet
+        proxy: terminal_server
+        command: open /192abb/n0/0
+  nxos1:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      defaults:
+        class: unicon.Unicon
+      a:
+        protocol: telnet
+        proxy: terminal_server
+        command: open /192abb/n1/0
+  nxos2:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      defaults:
+        class: unicon.Unicon
+      a:
+        protocol: telnet
+        proxy: terminal_server
+        command: open /192abb/n2/0
+  nxos3:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      defaults:
+        class: unicon.Unicon
+      a:
+        protocol: telnet
+        proxy: terminal_server
+        command: open /192abb/n3/0
+  alpine-0:
+    os: linux
+    type: server
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      defaults:
+        class: unicon.Unicon
+      a:
+        protocol: telnet
+        proxy: terminal_server
+        command: open /192abb/n10/0
+  alpine-1:
+    os: linux
+    type: server
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      defaults:
+        class: unicon.Unicon
+      a:
+        protocol: telnet
+        proxy: terminal_server
+        command: open /192abb/n4/0
+  alpine-2:
+    os: linux
+    type: server
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      defaults:
+        class: unicon.Unicon
+      a:
+        protocol: telnet
+        proxy: terminal_server
+        command: open /192abb/n5/0
+topology:
+  nxos0:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l6
+        type: ethernet
+      Ethernet1/1:
+        type: ethernet
+      Ethernet1/2:
+        link: l13
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l16
+        type: ethernet
+      Ethernet1/11:
+        link: l18
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l10
+        type: ethernet
+      Ethernet1/20:
+        link: l11
+        type: ethernet
+  nxos1:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l7
+        type: ethernet
+      Ethernet1/1:
+        type: ethernet
+      Ethernet1/2:
+        link: l14
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l17
+        type: ethernet
+      Ethernet1/11:
+        link: l19
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l10
+        type: ethernet
+      Ethernet1/20:
+        link: l11
+        type: ethernet
+  nxos2:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l2
+        type: ethernet
+      Ethernet1/1:
+        link: l4
+        type: ethernet
+      Ethernet1/2:
+        link: l12
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l16
+        type: ethernet
+      Ethernet1/11:
+        link: l17
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l0
+        type: ethernet
+      Ethernet1/20:
+        link: l1
+        type: ethernet
+  nxos3:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l3
+        type: ethernet
+      Ethernet1/1:
+        link: l5
+        type: ethernet
+      Ethernet1/2:
+        link: l20
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l18
+        type: ethernet
+      Ethernet1/11:
+        link: l19
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l0
+        type: ethernet
+      Ethernet1/20:
+        link: l1
+        type: ethernet
+  alpine-0:
+    interfaces:
+      eth0:
+        link: l13
+        type: ethernet
+      eth1:
+        link: l14
+        type: ethernet
+      eth2:
+        link: l15
+        type: ethernet
+  alpine-1:
+    interfaces:
+      eth0:
+        link: l4
+        type: ethernet
+      eth1:
+        link: l5
+        type: ethernet
+      eth2:
+        link: l8
+        type: ethernet
+  alpine-2:
+    interfaces:
+      eth0:
+        link: l12
+        type: ethernet
+      eth1:
+        link: l20
+        type: ethernet
+      eth2:
+        link: l9
+        type: ethernet

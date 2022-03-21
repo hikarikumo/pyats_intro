@@ -1,0 +1,268 @@
+testbed:
+  name: NXOS simple lab 002
+  credentials:
+    default:
+        username: admin
+        password: cisco
+    enable:
+        password: cisco
+devices:
+  nxos0:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      cli:
+        ip: 192.168.100.1
+        protocol: ssh
+  nxos1:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      cli:
+        ip: 192.168.100.2
+        protocol: ssh
+  nxos2:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      cli:
+        ip: 192.168.100.3
+        protocol: ssh
+  nxos3:
+    os: nxos
+    type: switch
+    platform: n9k
+    credentials:
+      default:
+        username: cisco
+        password: cisco
+    connections:
+      cli:
+        ip: 192.168.100.4
+        protocol: ssh
+topology:
+  nxos0:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l6
+        type: ethernet
+      Ethernet1/1:
+        type: ethernet
+      Ethernet1/2:
+        link: l13
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l16
+        type: ethernet
+      Ethernet1/11:
+        link: l18
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l10
+        type: ethernet
+      Ethernet1/20:
+        link: l11
+        type: ethernet
+  nxos1:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l7
+        type: ethernet
+      Ethernet1/1:
+        type: ethernet
+      Ethernet1/2:
+        link: l14
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l17
+        type: ethernet
+      Ethernet1/11:
+        link: l19
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l10
+        type: ethernet
+      Ethernet1/20:
+        link: l11
+        type: ethernet
+  nxos2:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l2
+        type: ethernet
+      Ethernet1/1:
+        link: l4
+        type: ethernet
+      Ethernet1/2:
+        link: l12
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l16
+        type: ethernet
+      Ethernet1/11:
+        link: l17
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l0
+        type: ethernet
+      Ethernet1/20:
+        link: l1
+        type: ethernet
+  nxos3:
+    interfaces:
+      Loopback0:
+        type: loopback
+      mgmt0:
+        link: l3
+        type: ethernet
+      Ethernet1/1:
+        link: l5
+        type: ethernet
+      Ethernet1/2:
+        link: l20
+        type: ethernet
+      Ethernet1/3:
+        type: ethernet
+      Ethernet1/4:
+        type: ethernet
+      Ethernet1/5:
+        type: ethernet
+      Ethernet1/6:
+        type: ethernet
+      Ethernet1/7:
+        type: ethernet
+      Ethernet1/8:
+        type: ethernet
+      Ethernet1/9:
+        type: ethernet
+      Ethernet1/10:
+        link: l18
+        type: ethernet
+      Ethernet1/11:
+        link: l19
+        type: ethernet
+      Ethernet1/12:
+        type: ethernet
+      Ethernet1/13:
+        type: ethernet
+      Ethernet1/14:
+        type: ethernet
+      Ethernet1/15:
+        type: ethernet
+      Ethernet1/16:
+        type: ethernet
+      Ethernet1/17:
+        type: ethernet
+      Ethernet1/18:
+        type: ethernet
+      Ethernet1/19:
+        link: l0
+        type: ethernet
+      Ethernet1/20:
+        link: l1
+        type: ethernet
