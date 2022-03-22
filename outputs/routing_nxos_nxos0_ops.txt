@@ -1,0 +1,137 @@
+{
+  "_exclude": [
+    "updated"
+  ],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "vrf": {
+      "default": {
+        "address_family": {
+          "ipv4": {
+            "routes": {
+              "1.1.1.1/32": {
+                "active": true,
+                "metric": 0,
+                "next_hop": {
+                  "next_hop_list": {
+                    "1": {
+                      "index": 1,
+                      "next_hop": "1.1.1.1",
+                      "outgoing_interface": "Loopback0",
+                      "updated": "00:34:16"
+                    },
+                    "2": {
+                      "index": 2,
+                      "next_hop": "1.1.1.1",
+                      "outgoing_interface": "Loopback0",
+                      "updated": "00:34:16"
+                    }
+                  }
+                },
+                "route": "1.1.1.1/32",
+                "route_preference": 0,
+                "source_protocol": "direct"
+              },
+              "192.168.0.0/24": {
+                "active": true,
+                "metric": 0,
+                "next_hop": {
+                  "next_hop_list": {
+                    "1": {
+                      "index": 1,
+                      "next_hop": "192.168.0.10",
+                      "outgoing_interface": "Vlan2",
+                      "updated": "00:31:58"
+                    }
+                  }
+                },
+                "route": "192.168.0.0/24",
+                "route_preference": 0,
+                "source_protocol": "direct"
+              },
+              "192.168.0.1/32": {
+                "active": true,
+                "metric": 0,
+                "next_hop": {
+                  "next_hop_list": {
+                    "1": {
+                      "index": 1,
+                      "next_hop": "192.168.0.1",
+                      "outgoing_interface": "Vlan2",
+                      "updated": "00:31:37"
+                    }
+                  }
+                },
+                "route": "192.168.0.1/32",
+                "route_preference": 0,
+                "source_protocol": "hsrp"
+              },
+              "192.168.0.10/32": {
+                "active": true,
+                "metric": 0,
+                "next_hop": {
+                  "next_hop_list": {
+                    "1": {
+                      "index": 1,
+                      "next_hop": "192.168.0.10",
+                      "outgoing_interface": "Vlan2",
+                      "updated": "00:31:58"
+                    }
+                  }
+                },
+                "route": "192.168.0.10/32",
+                "route_preference": 0,
+                "source_protocol": "local"
+              }
+            }
+          }
+        }
+      },
+      "management": {
+        "address_family": {
+          "ipv4": {
+            "routes": {
+              "192.168.100.0/24": {
+                "active": true,
+                "metric": 0,
+                "next_hop": {
+                  "next_hop_list": {
+                    "1": {
+                      "index": 1,
+                      "next_hop": "192.168.100.1",
+                      "outgoing_interface": "mgmt0",
+                      "updated": "00:34:16"
+                    }
+                  }
+                },
+                "route": "192.168.100.0/24",
+                "route_preference": 0,
+                "source_protocol": "direct"
+              },
+              "192.168.100.1/32": {
+                "active": true,
+                "metric": 0,
+                "next_hop": {
+                  "next_hop_list": {
+                    "1": {
+                      "index": 1,
+                      "next_hop": "192.168.100.1",
+                      "outgoing_interface": "mgmt0",
+                      "updated": "00:34:16"
+                    }
+                  }
+                },
+                "route": "192.168.100.1/32",
+                "route_preference": 0,
+                "source_protocol": "local"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

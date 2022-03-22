@@ -1,0 +1,20 @@
++++ nxos2 with via 'cli': executing command 'show ip eigrp neighbors detail vrf all' +++
+show ip eigrp neighbors detail vrf all
+                ^
+% Invalid command at '^' marker.
+nxos2# 
++++ nxos2 with via 'cli': executing command 'show ipv6 eigrp neighbors detail vrf all' +++
+show ipv6 eigrp neighbors detail vrf all
+                 ^
+% Invalid command at '^' marker.
+nxos2# 
+Could not learn <class 'genie.libs.parser.nxos.show_eigrp.ShowIpv6EigrpNeighborsDetail'>
+Invalid command has been executed
++====================================================================================================================================================+
+| Commands for learning feature 'Eigrp'                                                                                                              |
++====================================================================================================================================================+
+| - Commands not accepted on the device                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_eigrp.ShowIpv4EigrpNeighborsDetail'>                                                                    |
+|   cmd: <class 'genie.libs.parser.nxos.show_eigrp.ShowIpv6EigrpNeighborsDetail'>                                                                    |
+|====================================================================================================================================================|

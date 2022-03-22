@@ -1,0 +1,22 @@
+
+2022-03-21 06:48:50,154: %UNICON-INFO: +++ terminal_server logfile outputs//connection_terminal_server.txt +++
+
+2022-03-21 06:48:50,155: %UNICON-INFO: +++ Unicon plugin linux +++
+
+2022-03-21 06:48:50,159: %UNICON-INFO: +++ connection to spawn: ssh -l admin 10.248.248.15, id: 140017904193488 +++
+
+2022-03-21 06:48:50,160: %UNICON-INFO: connection to terminal_server
+admin@10.248.248.15's password: 
+
+****
+CML2 Console Server
+Copyright (c) 2020, 2021 Cisco Systems, Inc. and/or its affiliates
+****
+
+tab completion works
+list available nodes and node labels / IDs with "list"
+it's also possible to do a "open /lab_1/n0/0" command
+
+[J[2Kconsoles> 
+
+2022-03-21 06:48:50,757: %UNICON-INFO: +++ initializing handle +++

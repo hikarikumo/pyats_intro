@@ -1,0 +1,209 @@
+{
+  "_exclude": [
+    "age",
+    "uptime",
+    "last_change",
+    "cksum",
+    "seq",
+    "dead_timer",
+    "hello_timer",
+    "checksum",
+    "seq_num",
+    "statistics",
+    "lsas",
+    "last_state_change",
+    "bdr_ip_addr",
+    "dr_ip_addr",
+    "state",
+    "bdr_router_id",
+    "dr_router_id",
+    "area_scope_lsa_cksum_sum"
+  ],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "feature_ospf": true,
+    "vrf": {
+      "default": {
+        "address_family": {
+          "ipv4": {
+            "instance": {
+              "1": {
+                "areas": {
+                  "0.0.0.0": {
+                    "area_id": "0.0.0.0",
+                    "area_type": "normal",
+                    "database": {
+                      "lsa_types": {
+                        "1": {
+                          "lsa_type": 1,
+                          "lsas": {
+                            "1.1.1.1 1.1.1.1": {
+                              "adv_router": "1.1.1.1",
+                              "lsa_id": "1.1.1.1",
+                              "ospfv2": {
+                                "body": {
+                                  "router": {
+                                    "links": {
+                                      "1.1.1.1": {
+                                        "link_data": "255.255.255.255",
+                                        "link_id": "1.1.1.1",
+                                        "topologies": {
+                                          "0": {
+                                            "metric": 1,
+                                            "mt_id": 0
+                                          }
+                                        },
+                                        "type": "stub network"
+                                      },
+                                      "192.168.0.0": {
+                                        "link_data": "255.255.255.0",
+                                        "link_id": "192.168.0.0",
+                                        "topologies": {
+                                          "0": {
+                                            "metric": 40,
+                                            "mt_id": 0
+                                          }
+                                        },
+                                        "type": "stub network"
+                                      }
+                                    },
+                                    "num_of_links": 2
+                                  }
+                                },
+                                "header": {
+                                  "adv_router": "1.1.1.1",
+                                  "age": 88,
+                                  "checksum": "0x4c55",
+                                  "length": 48,
+                                  "lsa_id": "1.1.1.1",
+                                  "option": "0x2",
+                                  "seq_num": "0x80000004",
+                                  "type": 1
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    "interfaces": {
+                      "Ethernet1/10": {
+                        "bfd": {
+                          "enable": false
+                        },
+                        "cost": 4,
+                        "dead_interval": 40,
+                        "enable": true,
+                        "hello_interval": 10,
+                        "interface_type": "p2p",
+                        "name": "Ethernet1/10",
+                        "passive": false,
+                        "retransmit_interval": 5,
+                        "state": "down",
+                        "statistics": {
+                          "link_scope_lsa_cksum_sum": 0,
+                          "link_scope_lsa_count": 0
+                        },
+                        "transmit_delay": 1
+                      },
+                      "Ethernet1/11": {
+                        "bfd": {
+                          "enable": false
+                        },
+                        "cost": 4,
+                        "dead_interval": 40,
+                        "enable": true,
+                        "hello_interval": 10,
+                        "interface_type": "p2p",
+                        "name": "Ethernet1/11",
+                        "passive": false,
+                        "retransmit_interval": 5,
+                        "state": "down",
+                        "statistics": {
+                          "link_scope_lsa_cksum_sum": 0,
+                          "link_scope_lsa_count": 0
+                        },
+                        "transmit_delay": 1
+                      },
+                      "Vlan2": {
+                        "bfd": {
+                          "enable": false
+                        },
+                        "cost": 40,
+                        "enable": true,
+                        "interface_type": "broadcast",
+                        "name": "Vlan2",
+                        "passive": true,
+                        "state": "dr"
+                      },
+                      "loopback0": {
+                        "bfd": {
+                          "enable": false
+                        },
+                        "cost": 1,
+                        "enable": true,
+                        "interface_type": "loopback",
+                        "name": "loopback0",
+                        "state": "loopback"
+                      }
+                    },
+                    "mpls": {
+                      "ldp": {
+                        "auto_config": false,
+                        "sync": false
+                      }
+                    },
+                    "statistics": {
+                      "area_scope_lsa_cksum_sum": "1",
+                      "area_scope_lsa_count": 1,
+                      "spf_runs_count": 2
+                    }
+                  }
+                },
+                "auto_cost": {
+                  "enable": false,
+                  "reference_bandwidth": 40000
+                },
+                "enable": false,
+                "graceful_restart": {
+                  "ietf": {
+                    "enable": true,
+                    "restart_interval": 60,
+                    "type": "ietf"
+                  }
+                },
+                "nsr": {
+                  "enable": true
+                },
+                "preference": {
+                  "single_value": {
+                    "all": 110
+                  }
+                },
+                "router_id": "1.1.1.1",
+                "spf_control": {
+                  "paths": 8,
+                  "throttle": {
+                    "lsa": {
+                      "hold": 5000,
+                      "maximum": 5000,
+                      "start": 0
+                    },
+                    "spf": {
+                      "hold": 1000,
+                      "maximum": 5000,
+                      "start": 200
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,27 @@
++++ nxos0 with via 'cli': executing command 'show ip igmp interface vrf all' +++
+show ip igmp interface vrf all
+IGMP Interfaces for VRF "default", count: 0
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show ip igmp local-groups vrf all' +++
+show ip igmp local-groups vrf all
+IGMP Locally Joined Group Membership for VRF "default"
+Group Address    Source Address   Type     Interface   Last Reported 
+
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show ip igmp groups vrf all' +++
+show ip igmp groups vrf all
+IGMP Connected Group Membership for VRF "default" - 0 total entries
+Type: S - Static, D - Dynamic, L - Local, T - SSM Translated, H - Host Proxy
+      * - Cache Only
+Group Address      Type Interface              Uptime    Expires   Last Reporter
+
+nxos0# 
++====================================================================================================================================================+
+| Commands for learning feature 'Igmp'                                                                                                               |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_igmp.ShowIpIgmpInterface'>, arguments: {'vrf':'all'}                                                    |
+|   cmd: <class 'genie.libs.parser.nxos.show_igmp.ShowIpIgmpLocalGroups'>, arguments: {'vrf':'all'}                                                  |
+|   cmd: <class 'genie.libs.parser.nxos.show_igmp.ShowIpIgmpGroups'>, arguments: {'vrf':'all'}                                                       |
+|====================================================================================================================================================|

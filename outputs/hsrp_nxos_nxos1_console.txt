@@ -1,0 +1,35 @@
++++ nxos1 with via 'cli': executing command 'show hsrp all' +++
+show hsrp all
+Vlan2 - Group 2 (HSRP-V2) (IPv4)
+  Local state is Active, priority 100 (Cfged 100)
+    Forwarding threshold(for vPC), lower: 0 upper: 100 
+  Hellotime 3 sec, holdtime 10 sec
+  Next hello sent in 1.304000 sec(s)
+  Virtual IP address is 192.168.0.1 (Cfged)
+  Active router is local
+  Standby router is 192.168.0.10 , priority 100 expires in 8.457000 sec(s)
+  Authentication text "cisco"
+  Virtual mac address is 0000.0c9f.f002 (Default MAC)
+  2 state changes, last state change 00:31:00
+  IP redundancy name is alpine-0 (cfgd)
+
+nxos1# 
++++ nxos1 with via 'cli': executing command 'show hsrp delay' +++
+show hsrp delay
+---------------------------------
+Interface       Minimum    Reload
+---------------------------------
+nxos1# 
+Could not learn <class 'genie.libs.parser.nxos.show_hsrp.ShowHsrpDelay'>
+Parser Output is empty
++====================================================================================================================================================+
+| Commands for learning feature 'Hsrp'                                                                                                               |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_hsrp.ShowHsrpAll'>                                                                                      |
+|====================================================================================================================================================|
+| - Commands with empty output                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_hsrp.ShowHsrpDelay'>                                                                                    |
+|====================================================================================================================================================|

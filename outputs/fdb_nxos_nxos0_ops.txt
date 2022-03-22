@@ -1,0 +1,49 @@
+{
+  "_exclude": [],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "mac_aging_time": 1800,
+    "mac_table": {
+      "vlans": {
+        "2": {
+          "mac_addresses": {
+            "0000.0c9f.f002": {
+              "interfaces": {
+                "vPC Peer-Link(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "vPC Peer-Link(R)"
+                }
+              },
+              "mac_address": "0000.0c9f.f002"
+            },
+            "520a.8c0d.1b08": {
+              "interfaces": {
+                "Sup-eth1(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "Sup-eth1(R)"
+                }
+              },
+              "mac_address": "520a.8c0d.1b08"
+            },
+            "5217.9019.1b08": {
+              "interfaces": {
+                "vPC Peer-Link(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "vPC Peer-Link(R)"
+                }
+              },
+              "mac_address": "5217.9019.1b08"
+            }
+          },
+          "vlan": "2"
+        }
+      }
+    }
+  }
+}

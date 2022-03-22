@@ -1,0 +1,194 @@
+
+2022-03-21 06:50:02,421: %UNICON-INFO: +++ nxos1 logfile outputs//connection_nxos1.txt +++
+
+2022-03-21 06:50:02,422: %UNICON-INFO: +++ Unicon plugin nxos/n9k +++
+
+2022-03-21 06:50:02,427: %UNICON-INFO: connection via proxy terminal_server
+
+2022-03-21 06:50:02,434: %UNICON-INFO: +++ connection to spawn: ssh -l admin 10.248.248.15, id: 140017903971104 +++
+
+2022-03-21 06:50:02,436: %UNICON-INFO: connection to terminal_server
+admin@10.248.248.15's password: 
+
+****
+CML2 Console Server
+Copyright (c) 2020, 2021 Cisco Systems, Inc. and/or its affiliates
+****
+
+tab completion works
+list available nodes and node labels / IDs with "list"
+it's also possible to do a "open /lab_1/n0/0" command
+
+[J[2Kconsoles> 
+
+2022-03-21 06:50:02,910: %UNICON-INFO: +++ initializing handle +++
+
+2022-03-21 06:50:02,922: %UNICON-INFO: connection to nxos1
+[J[2Kconsoles> o[J[2Kconsoles> op[J[2Kconsoles> ope[J[2Kconsoles> open[J[2Kconsoles> open [J[2Kconsoles> open /[J[2Kconsoles> open /1[J[2Kconsoles> open /19[J[2Kconsoles> open /192[J[2Kconsoles> open /192a[J[2Kconsoles> open /192ab[J[2Kconsoles> open /192abb[J[2Kconsoles> open /192abb/[J[2Kconsoles> open /192abb/n[J[2Kconsoles> open /192abb/n1[J[2Kconsoles> open /192abb/n1/[J[2Kconsoles> open /192abb/n1/0[J[2Kconsoles> open /192abb/n1/0[J[2Kconsoles> open /192abb/n1/0
+console "/192abb/n1/0" not found!
+[J[2Kconsoles> 
+2022-03-21 07:50:56,933: %UNICON-INFO: +++ nxos1 logfile outputs//connection_nxos1.txt +++
+
+2022-03-21 07:50:56,934: %UNICON-INFO: +++ Unicon plugin nxos/n9k +++
+The authenticity of host '192.168.100.2 (192.168.100.2)' can't be established.
+RSA key fingerprint is SHA256:mW68fdQC/bbbvhnlp2f7JxveUjjGnOM8Cn+iDkO4Zxk.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? 
+
+2022-03-21 07:50:58,268: %UNICON-INFO: +++ connection to spawn: ssh -l cisco 192.168.100.2, id: 139869513714992 +++
+
+2022-03-21 07:50:58,269: %UNICON-INFO: connection to nxos1
+yes
+Warning: Permanently added '192.168.100.2' (RSA) to the list of known hosts.
+User Access Verification
+Password: 
+
+Cisco NX-OS Software
+Copyright (c) 2002-2020, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other reference materials ("Documentation") are
+the proprietary property and confidential information of Cisco
+Systems, Inc. ("Cisco") and are protected, without limitation,
+pursuant to United States and International copyright and trademark
+laws in the applicable jurisdiction which provide civil and criminal
+penalties for copying or distribution without Cisco's authorization.
+
+Any use or disclosure, in whole or in part, of the Nexus 9000v Software
+or Documentation to any third party for any purposes is expressly
+prohibited except as otherwise authorized by Cisco in writing.
+The copyrights to certain works contained herein are owned by other
+third parties and are used and distributed under license. Some parts
+of this software may be covered under the GNU Public License or the
+GNU Lesser General Public License. A copy of each such license is
+available at
+http://www.gnu.org/licenses/gpl.html and
+http://www.gnu.org/licenses/lgpl.html
+***************************************************************************
+*  Nexus 9000v is strictly limited to use for evaluation, demonstration   *
+*  and NX-OS education. Any use or disclosure, in whole or in part of     *
+*  the Nexus 9000v Software or Documentation to any third party for any   *
+*  purposes is expressly prohibited except as otherwise authorized by     *
+*  Cisco in writing.                                                      *
+***************************************************************************
+nxos1# 
+
+2022-03-21 07:50:59,076: %UNICON-INFO: +++ initializing handle +++
+
+2022-03-21 07:50:59,151: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'term length 0' +++
+term length 0
+nxos1# 
+
+2022-03-21 07:50:59,308: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'term width 511' +++
+term width 511
+nxos1# 
+
+2022-03-21 07:50:59,463: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'terminal session-timeout 0' +++
+terminal session-timeout 0
+nxos1# 
+
+2022-03-21 07:51:39,324: %UNICON-INFO: +++ nxos1 logfile outputs//connection_nxos1.txt +++
+
+2022-03-21 07:51:39,325: %UNICON-INFO: +++ Unicon plugin nxos/n9k +++
+User Access Verification
+
+
+2022-03-21 07:51:39,650: %UNICON-INFO: +++ connection to spawn: ssh -l cisco 192.168.100.2, id: 140203117957024 +++
+
+2022-03-21 07:51:39,651: %UNICON-INFO: connection to nxos1
+Password: 
+
+Cisco NX-OS Software
+Copyright (c) 2002-2020, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other reference materials ("Documentation") are
+the proprietary property and confidential information of Cisco
+Systems, Inc. ("Cisco") and are protected, without limitation,
+pursuant to United States and International copyright and trademark
+laws in the applicable jurisdiction which provide civil and criminal
+penalties for copying or distribution without Cisco's authorization.
+
+Any use or disclosure, in whole or in part, of the Nexus 9000v Software
+or Documentation to any third party for any purposes is expressly
+prohibited except as otherwise authorized by Cisco in writing.
+The copyrights to certain works contained herein are owned by other
+third parties and are used and distributed under license. Some parts
+of this software may be covered under the GNU Public License or the
+GNU Lesser General Public License. A copy of each such license is
+available at
+http://www.gnu.org/licenses/gpl.html and
+http://www.gnu.org/licenses/lgpl.html
+***************************************************************************
+*  Nexus 9000v is strictly limited to use for evaluation, demonstration   *
+*  and NX-OS education. Any use or disclosure, in whole or in part of     *
+*  the Nexus 9000v Software or Documentation to any third party for any   *
+*  purposes is expressly prohibited except as otherwise authorized by     *
+*  Cisco in writing.                                                      *
+***************************************************************************
+nxos1# 
+
+2022-03-21 07:51:40,146: %UNICON-INFO: +++ initializing handle +++
+
+2022-03-21 07:51:40,220: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'term length 0' +++
+term length 0
+nxos1# 
+
+2022-03-21 07:51:40,378: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'term width 511' +++
+term width 511
+nxos1# 
+
+2022-03-21 07:51:40,537: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'terminal session-timeout 0' +++
+terminal session-timeout 0
+nxos1# 
+
+2022-03-21 07:52:56,613: %UNICON-INFO: +++ nxos1 logfile outputs/connection_nxos1.txt +++
+
+2022-03-21 07:52:56,613: %UNICON-INFO: +++ Unicon plugin nxos/n9k +++
+User Access Verification
+Password: 
+
+2022-03-21 07:52:56,950: %UNICON-INFO: +++ connection to spawn: ssh -l cisco 192.168.100.2, id: 139799712765984 +++
+
+2022-03-21 07:52:56,950: %UNICON-INFO: connection to nxos1
+
+
+Cisco NX-OS Software
+Copyright (c) 2002-2020, Cisco Systems, Inc. All rights reserved.
+Nexus 9000v software ("Nexus 9000v Software") and related documentation,
+files or other reference materials ("Documentation") are
+the proprietary property and confidential information of Cisco
+Systems, Inc. ("Cisco") and are protected, without limitation,
+pursuant to United States and International copyright and trademark
+laws in the applicable jurisdiction which provide civil and criminal
+penalties for copying or distribution without Cisco's authorization.
+
+Any use or disclosure, in whole or in part, of the Nexus 9000v Software
+or Documentation to any third party for any purposes is expressly
+prohibited except as otherwise authorized by Cisco in writing.
+The copyrights to certain works contained herein are owned by other
+third parties and are used and distributed under license. Some parts
+of this software may be covered under the GNU Public License or the
+GNU Lesser General Public License. A copy of each such license is
+available at
+http://www.gnu.org/licenses/gpl.html and
+http://www.gnu.org/licenses/lgpl.html
+***************************************************************************
+*  Nexus 9000v is strictly limited to use for evaluation, demonstration   *
+*  and NX-OS education. Any use or disclosure, in whole or in part of     *
+*  the Nexus 9000v Software or Documentation to any third party for any   *
+*  purposes is expressly prohibited except as otherwise authorized by     *
+*  Cisco in writing.                                                      *
+***************************************************************************
+nxos1# 
+
+2022-03-21 07:52:57,497: %UNICON-INFO: +++ initializing handle +++
+
+2022-03-21 07:52:57,571: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'term length 0' +++
+term length 0
+nxos1# 
+
+2022-03-21 07:52:57,732: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'term width 511' +++
+term width 511
+nxos1# 
+
+2022-03-21 07:52:57,888: %UNICON-INFO: +++ nxos1 with via 'cli': executing command 'terminal session-timeout 0' +++
+terminal session-timeout 0
+nxos1# 

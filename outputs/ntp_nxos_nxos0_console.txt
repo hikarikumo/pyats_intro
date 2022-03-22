@@ -1,0 +1,17 @@
++++ nxos0 with via 'cli': executing command 'show ntp peer-status' +++
+show ntp peer-status
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show ntp peers' +++
+show ntp peers
+nxos0# 
+s empty
+Could not learn <class 'genie.libs.parser.nxos.show_ntp.ShowNtpPeers'>
+Parser Output is empty
++====================================================================================================================================================+
+| Commands for learning feature 'Ntp'                                                                                                                |
++====================================================================================================================================================+
+| - Commands with empty output                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_ntp.ShowNtpPeerStatus'>                                                                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_ntp.ShowNtpPeers'>                                                                                      |
+|====================================================================================================================================================|

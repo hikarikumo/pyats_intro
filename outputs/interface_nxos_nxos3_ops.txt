@@ -1,0 +1,3830 @@
+{
+  "_exclude": [
+    "in_discards",
+    "in_octets",
+    "in_pkts",
+    "last_clear",
+    "out_octets",
+    "out_pkts",
+    "in_rate",
+    "out_rate",
+    "in_errors",
+    "in_crc_errors",
+    "in_rate_pkts",
+    "out_rate_pkts",
+    "in_broadcast_pkts",
+    "out_broadcast_pkts",
+    "in_multicast_pkts",
+    "out_multicast_pkts",
+    "in_unicast_pkts",
+    "out_unicast_pkts",
+    "last_change",
+    "mac_address",
+    "phys_address",
+    "((t|T)unnel.*)",
+    "(Null.*)",
+    "chars_out",
+    "chars_in",
+    "pkts_out",
+    "pkts_in",
+    "mgmt0"
+  ],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "Ethernet1/1": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 105,
+        "out_octets": 16964,
+        "out_pkts": 105,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 64,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:31:00",
+      "mac_address": "521a.bddc.0101",
+      "medium": "broadcast",
+      "mtu": 9216,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0101",
+      "port_channel": {
+        "port_channel_int": "Port-channel1",
+        "port_channel_member": true
+      },
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "10",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/10": {
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 230,
+        "in_pkts": 3,
+        "in_unicast_pkts": 3,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 2,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 329,
+        "out_octets": 44813,
+        "out_pkts": 331,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 168,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "ipv4": {
+        "1.1.1.4/32": {
+          "ip": "1.1.1.4",
+          "prefix_length": "32"
+        },
+        "unnumbered": {
+          "interface_ref": "loopback0"
+        }
+      },
+      "last_change": "00:32:12",
+      "mac_address": "521a.bddc.1b08",
+      "mtu": 9216,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.010a",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "type": "100/1000/10000 Ethernet",
+      "vrf": "default"
+    },
+    "Ethernet1/11": {
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 2,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 348,
+        "in_octets": 47747,
+        "in_pkts": 354,
+        "in_unicast_pkts": 4,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 2,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 351,
+        "out_octets": 48781,
+        "out_pkts": 353,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 176,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 176,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "ipv4": {
+        "1.1.1.4/32": {
+          "ip": "1.1.1.4",
+          "prefix_length": "32"
+        },
+        "unnumbered": {
+          "interface_ref": "loopback0"
+        }
+      },
+      "last_change": "00:32:12",
+      "mac_address": "521a.bddc.1b08",
+      "mtu": 9216,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.010b",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "type": "100/1000/10000 Ethernet",
+      "vrf": "default"
+    },
+    "Ethernet1/12": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 84111,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:10",
+      "mac_address": "521a.bddc.010c",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.010c",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/13": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 35,
+        "out_octets": 8435,
+        "out_pkts": 35,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 32,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "description": "compute01.example.com data",
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:13",
+      "mac_address": "521a.bddc.010d",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.010d",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "100,200",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/14": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 35,
+        "out_octets": 8435,
+        "out_pkts": 35,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 32,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "description": "compute02.example.com data",
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:12",
+      "mac_address": "521a.bddc.010e",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.010e",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "300,400",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/15": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 84111,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:10",
+      "mac_address": "521a.bddc.010f",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.010f",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/16": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 84111,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:10",
+      "mac_address": "521a.bddc.0110",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0110",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/17": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 84111,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:10",
+      "mac_address": "521a.bddc.0111",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0111",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/18": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 84111,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:10",
+      "mac_address": "521a.bddc.0112",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0112",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/19": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 4,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 7121,
+        "in_octets": 712938,
+        "in_pkts": 7125,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 4,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 5738,
+        "out_octets": 493088,
+        "out_pkts": 5742,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 1664,
+          "in_rate_pkts": 3,
+          "load_interval": 300,
+          "out_rate": 1104,
+          "out_rate_pkts": 2
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:31:50",
+      "mac_address": "521a.bddc.0113",
+      "medium": "broadcast",
+      "mtu": 9216,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0113",
+      "port_channel": {
+        "port_channel_int": "Port-channel4096",
+        "port_channel_member": true
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/2": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 105,
+        "out_octets": 16964,
+        "out_pkts": 105,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 64,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:31:00",
+      "mac_address": "521a.bddc.0102",
+      "medium": "broadcast",
+      "mtu": 9216,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0102",
+      "port_channel": {
+        "port_channel_int": "Port-channel2",
+        "port_channel_member": true
+      },
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "20",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/20": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 207,
+        "in_octets": 39729,
+        "in_pkts": 207,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 2,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1591,
+        "out_octets": 176003,
+        "out_pkts": 1593,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 136,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 704,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:31:41",
+      "mac_address": "521a.bddc.0114",
+      "medium": "broadcast",
+      "mtu": 9216,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0114",
+      "port_channel": {
+        "port_channel_int": "Port-channel4096",
+        "port_channel_member": true
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/21": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0115",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0115",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/22": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0116",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0116",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/23": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0117",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0117",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/24": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0118",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0118",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/25": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0119",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0119",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/26": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.011a",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.011a",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/27": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.011b",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.011b",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/28": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.011c",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.011c",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/29": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.011d",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.011d",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/3": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 83948,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:11",
+      "mac_address": "521a.bddc.0103",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0103",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/30": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.011e",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.011e",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/31": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.011f",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.011f",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/32": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0120",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0120",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/33": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0121",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0121",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/34": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0122",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0122",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/35": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0123",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0123",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/36": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0124",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0124",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/37": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0125",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0125",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/38": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0126",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0126",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/39": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0127",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0127",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/4": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 83948,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:11",
+      "mac_address": "521a.bddc.0104",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0104",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/40": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0128",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0128",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/41": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0129",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0129",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/42": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.012a",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.012a",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/43": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.012b",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.012b",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/44": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.012c",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.012c",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/45": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.012d",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.012d",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/46": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.012e",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.012e",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/47": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.012f",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.012f",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/48": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0130",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0130",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/49": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0131",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0131",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/5": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 83948,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:11",
+      "mac_address": "521a.bddc.0105",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0105",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/50": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0132",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0132",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/51": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0133",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0133",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/52": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0134",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0134",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/53": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0135",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0135",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/54": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0136",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0136",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/55": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0137",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0137",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/56": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0138",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0138",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/57": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0139",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0139",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/58": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.013a",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.013a",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/59": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.013b",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.013b",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/6": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 83948,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:11",
+      "mac_address": "521a.bddc.0106",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0106",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/60": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.013c",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.013c",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/61": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.013d",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.013d",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/62": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.013e",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.013e",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/63": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.013f",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.013f",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/64": {
+      "access_vlan": 1,
+      "bandwidth": 10000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 0,
+        "out_octets": 0,
+        "out_pkts": 0,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 0,
+          "out_rate": 0,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "never",
+      "mac_address": "521a.bddc.0140",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "phys_address": "521a.bddc.0140",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/7": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 83948,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:11",
+      "mac_address": "521a.bddc.0107",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0107",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/8": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 83948,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:10",
+      "mac_address": "521a.bddc.0108",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0108",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Ethernet1/9": {
+      "access_vlan": 1,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 1068,
+        "out_octets": 83948,
+        "out_pkts": 1068,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 336,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "last_change": "00:32:10",
+      "mac_address": "521a.bddc.0109",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "phys_address": "521a.bddc.0109",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "access",
+      "trunk_vlans": "1-4094",
+      "type": "100/1000/10000 Ethernet"
+    },
+    "Loopback0": {
+      "bandwidth": 8000000,
+      "delay": 5000,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "loopback"
+      },
+      "ipv4": {
+        "1.1.1.4/32": {
+          "ip": "1.1.1.4",
+          "origin": "local",
+          "prefix_length": "32"
+        }
+      },
+      "medium": "broadcast",
+      "mtu": 1500,
+      "oper_status": "up",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "vrf": "default"
+    },
+    "Mgmt0": {
+      "auto_negotiate": true,
+      "bandwidth": 1000000,
+      "counters": {
+        "in_broadcast_pkts": 8,
+        "in_multicast_pkts": 502,
+        "in_octets": 704704,
+        "in_pkts": 11129,
+        "in_unicast_pkts": 3070,
+        "rate": {
+          "in_rate": 8712,
+          "in_rate_pkts": 12,
+          "load_interval": 1,
+          "out_rate": 34344,
+          "out_rate_pkts": 8
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "ipv4": {
+        "192.168.100.4/24": {
+          "ip": "192.168.100.4",
+          "prefix_length": "24"
+        }
+      },
+      "mac_address": "5254.001a.bddc",
+      "medium": "broadcast",
+      "mtu": 1500,
+      "oper_status": "up",
+      "phys_address": "5254.001a.bddc",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "port_speed": "1000",
+      "type": "Ethernet",
+      "vrf": "management"
+    },
+    "Port-channel1": {
+      "access_vlan": 1,
+      "bandwidth": 100000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 105,
+        "out_octets": 16964,
+        "out_pkts": 105,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 64,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "description": "top",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "medium": "broadcast",
+      "mtu": 9216,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "port_channel": {
+        "port_channel_member": true,
+        "port_channel_member_intfs": [
+          "Ethernet1/1"
+        ]
+      },
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "10"
+    },
+    "Port-channel2": {
+      "access_vlan": 1,
+      "bandwidth": 100000,
+      "counters": {
+        "in_broadcast_pkts": 0,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 0,
+        "in_octets": 0,
+        "in_pkts": 0,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 0,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 105,
+        "out_octets": 16964,
+        "out_pkts": 105,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 0,
+          "in_rate_pkts": 0,
+          "load_interval": 300,
+          "out_rate": 64,
+          "out_rate_pkts": 0
+        }
+      },
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "medium": "broadcast",
+      "mtu": 9216,
+      "native_vlan": 1,
+      "oper_status": "down",
+      "port_channel": {
+        "port_channel_member": true,
+        "port_channel_member_intfs": [
+          "Ethernet1/2"
+        ]
+      },
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "20"
+    },
+    "Port-channel4096": {
+      "access_vlan": 1,
+      "bandwidth": 2000000,
+      "counters": {
+        "in_broadcast_pkts": 4,
+        "in_crc_errors": 0,
+        "in_errors": 0,
+        "in_mac_pause_frames": 0,
+        "in_multicast_pkts": 7328,
+        "in_octets": 752667,
+        "in_pkts": 7332,
+        "in_unicast_pkts": 0,
+        "in_unknown_protos": 0,
+        "last_clear": "never",
+        "out_broadcast_pkts": 6,
+        "out_discard": 0,
+        "out_errors": 0,
+        "out_mac_pause_frames": 0,
+        "out_multicast_pkts": 7329,
+        "out_octets": 669091,
+        "out_pkts": 7335,
+        "out_unicast_pkts": 0,
+        "rate": {
+          "in_rate": 1800,
+          "in_rate_pkts": 3,
+          "load_interval": 300,
+          "out_rate": 1808,
+          "out_rate_pkts": 2
+        }
+      },
+      "delay": 10,
+      "duplex_mode": "full",
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "flow_control": {
+        "receive": false,
+        "send": false
+      },
+      "medium": "broadcast",
+      "mtu": 9216,
+      "native_vlan": 1,
+      "oper_status": "up",
+      "port_channel": {
+        "port_channel_member": true,
+        "port_channel_member_intfs": [
+          "Ethernet1/19",
+          "Ethernet1/20"
+        ]
+      },
+      "port_speed": "1000",
+      "switchport_enable": true,
+      "switchport_mode": "trunk",
+      "trunk_vlans": "1-4094"
+    },
+    "Vlan1": {
+      "bandwidth": 1000000,
+      "delay": 10,
+      "enabled": false,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "mac_address": "521a.bddc.1b08",
+      "mtu": 1500,
+      "oper_status": "down",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "type": "EtherSVI",
+      "vrf": "default"
+    },
+    "Vlan10": {
+      "bandwidth": 1000000,
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "ipv4": {
+        "192.168.10.4/24": {
+          "ip": "192.168.10.4",
+          "prefix_length": "24"
+        }
+      },
+      "mac_address": "521a.bddc.1b08",
+      "mtu": 1500,
+      "oper_status": "up",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "type": "EtherSVI",
+      "vrf": "default"
+    },
+    "Vlan20": {
+      "bandwidth": 1000000,
+      "delay": 10,
+      "enabled": true,
+      "encapsulation": {
+        "encapsulation": "arpa"
+      },
+      "ipv4": {
+        "192.168.20.4/24": {
+          "ip": "192.168.20.4",
+          "prefix_length": "24"
+        }
+      },
+      "mac_address": "521a.bddc.1b08",
+      "mtu": 1500,
+      "oper_status": "up",
+      "port_channel": {
+        "port_channel_member": false
+      },
+      "type": "EtherSVI",
+      "vrf": "default"
+    }
+  }
+}

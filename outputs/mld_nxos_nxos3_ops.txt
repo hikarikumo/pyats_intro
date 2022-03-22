@@ -1,0 +1,19 @@
+{
+  "_exclude": [
+    "expire",
+    "up_time",
+    "last_reporter",
+    "querier"
+  ],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "vrfs": {
+      "default": {
+        "groups_count": 0
+      }
+    }
+  }
+}

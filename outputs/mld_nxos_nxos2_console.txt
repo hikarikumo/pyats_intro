@@ -1,0 +1,30 @@
++++ nxos2 with via 'cli': executing command 'show ipv6 mld groups vrf all' +++
+show ipv6 mld groups vrf all
+MLD Connected Group Membership for VRF "default" - 0 total entries
+Type: S - Static, D - Dynamic, L - Local, T - SSM Translated, H - Host Proxy
+      * - Cache Only
+Group Address      Type Interface              Uptime    Expires   Last Reporter
+
+nxos2# 
++++ nxos2 with via 'cli': executing command 'show ipv6 mld interface vrf all' +++
+show ipv6 mld interface vrf all
+MLD Interfaces for VRF "default", count: 0
+nxos2# 
++++ nxos2 with via 'cli': executing command 'show ipv6 mld local-groups vrf all' +++
+show ipv6 mld local-groups vrf all
+MLD Locally Joined Group Membership for VRF "default"
+Group Address    Source Address   Type     Interface   Last Reported 
+
+nxos2# 
++====================================================================================================================================================+
+| Commands for learning feature 'Mld'                                                                                                                |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_mld.ShowIpv6MldGroups'>, arguments: {'vrf':'all'}                                                       |
+|   cmd: <class 'genie.libs.parser.nxos.show_mld.ShowIpv6MldLocalGroups'>, arguments: {'vrf':'all'}                                                  |
+|====================================================================================================================================================|
+| - Commands with empty output                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_mld.ShowIpv6MldInterface'>, arguments: {'vrf':'all'}                                                    |
+|====================================================================================================================================================|

@@ -1,0 +1,159 @@
++++ nxos0 with via 'cli': executing command 'show lldp timers' +++
+show lldp timers
+LLDP Timers:
+
+    Holdtime in seconds: 120
+    Reinit-time in seconds: 2
+    Transmit interval in seconds: 30
+    Transmit delay in seconds: 2
+    Hold multiplier in seconds: 4
+    Notification interval in seconds: 5
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show lldp tlv-select' +++
+show lldp tlv-select
+   management-address-v4
+   management-address-v6
+   port-description
+   port-vlan
+   power-management
+   four-wire-power-management
+   system-capabilities
+   system-description
+   system-name
+   dcbxp
+   DCBX ETS Configuration TLV
+   DCBX ETS Recommendation TLV
+   DCBX PFC Configuration TLV
+   DCBX Application Priority TLV
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show lldp traffic' +++
+show lldp traffic
+LLDP traffic statistics: 
+
+    Total frames transmitted: 466
+    Total entries aged: 0
+    Total frames received: 206
+    Total frames received in error: 68
+    Total frames discarded: 68
+    Total unrecognized TLVs: 0
+    Total flap count: 2
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show lldp neighbors detail' +++
+show lldp neighbors detail
+Capability codes:
+  (R) Router, (B) Bridge, (T) Telephone, (C) DOCSIS Cable Device
+  (W) WLAN Access Point, (P) Repeater, (S) Station, (O) Other
+Device ID            Local Intf      Hold-time  Capability  Port ID  
+
+Chassis id: 5217.9019.0113
+Port id: Ethernet1/19
+Local Port id: Eth1/19
+Port Description: Ethernet1/19
+System Name: nxos1
+System Description: Cisco Nexus Operating System (NX-OS) Software 9.3(6)
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2020, Cisco Systems, Inc. All rights reserved.
+Time remaining: 99 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 192.168.100.2
+Management Address IPV6: not advertised
+Vlan ID: 1
+
+
+Chassis id: 5217.9019.0114
+Port id: Ethernet1/20
+Local Port id: Eth1/20
+Port Description: Ethernet1/20
+System Name: nxos1
+System Description: Cisco Nexus Operating System (NX-OS) Software 9.3(6)
+TAC support: http://www.cisco.com/tac
+Copyright (c) 2002-2020, Cisco Systems, Inc. All rights reserved.
+Time remaining: 99 seconds
+System Capabilities: B, R
+Enabled Capabilities: B, R
+Management Address: 192.168.100.2
+Management Address IPV6: not advertised
+Vlan ID: 1
+
+Total entries displayed: 2
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show lldp all' +++
+show lldp all
+Interface Information: Eth1/8 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/7 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/6 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/5 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/4 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/3 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/2 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/1 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: mgmt0 Enable (tx/rx/dcbx): Y/Y/N    
+Interface Information: Eth1/16 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/15 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/14 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/13 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/12 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/11 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/10 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/9 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/24 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/23 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/22 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/21 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/20 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/19 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/18 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/17 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/32 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/31 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/30 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/29 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/28 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/27 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/26 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/25 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/40 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/39 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/38 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/37 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/36 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/35 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/34 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/33 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/48 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/47 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/46 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/45 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/44 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/43 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/42 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/41 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/56 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/55 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/54 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/53 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/52 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/51 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/50 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/49 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/64 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/63 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/62 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/61 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/60 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/59 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/58 Enable (tx/rx/dcbx): Y/Y/Y    
+Interface Information: Eth1/57 Enable (tx/rx/dcbx): Y/Y/Y    
+nxos0# 
++====================================================================================================================================================+
+| Commands for learning feature 'Lldp'                                                                                                               |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_lldp.ShowLldpTimers'>                                                                                   |
+|   cmd: <class 'genie.libs.parser.nxos.show_lldp.ShowLldpTlvSelect'>                                                                                |
+|   cmd: <class 'genie.libs.parser.nxos.show_lldp.ShowLldpTraffic'>                                                                                  |
+|   cmd: <class 'genie.libs.parser.nxos.show_lldp.ShowLldpNeighborsDetail'>                                                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_lldp.ShowLldpAll'>                                                                                      |
+|====================================================================================================================================================|

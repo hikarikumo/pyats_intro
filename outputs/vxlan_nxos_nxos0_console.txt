@@ -1,0 +1,485 @@
++++ nxos0 with via 'cli': executing command 'show nve vni' +++
+show nve vni
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show running-config nv overlay' +++
+show running-config nv overlay
+                            ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show feature' +++
+show feature
+Feature Name          Instance  State   
+--------------------  --------  --------
+Flexlink               1          disabled
+analytics              1          disabled
+bash-shell             1          disabled
+bfd                    1          disabled
+bgp                    1          disabled
+bluez                  1          disabled
+bulkstat               1          disabled
+cable-management       1          disabled
+catena                 1          disabled
+container-tracker      1          disabled
+macsec                 1          disabled
+dhcp                   1          disabled
+dot1x                  1          disabled
+eigrp                  1          disabled
+eigrp                  2          disabled
+eigrp                  3          disabled
+eigrp                  4          disabled
+eigrp                  5          disabled
+eigrp                  6          disabled
+eigrp                  7          disabled
+eigrp                  8          disabled
+eigrp                  9          disabled
+eigrp                  10         disabled
+eigrp                  11         disabled
+eigrp                  12         disabled
+eigrp                  13         disabled
+eigrp                  14         disabled
+eigrp                  15         disabled
+eigrp                  16         disabled
+enm                    1          disabled
+epbr                   1          disabled
+eth-port-sec           1          disabled
+evb                    1          disabled
+evc                    1          disabled
+evmed                  1          disabled
+fabric-access          1          disabled
+fport-channel-trunk    1          disabled
+fsync_mgr              1          disabled
+grpc                   1          disabled
+hardware-telemetry     1          disabled
+hmm                    1          disabled
+hsrp_engine            1          enabled 
+icam                   1          enabled 
+imp                    1          disabled
+interface-vlan         1          enabled 
+intersight             1          disabled
+isis                   1          disabled
+isis                   2          disabled
+isis                   3          disabled
+isis                   4          disabled
+isis                   5          disabled
+isis                   6          disabled
+isis                   7          disabled
+isis                   8          disabled
+isis                   9          disabled
+isis                   10         disabled
+isis                   11         disabled
+isis                   12         disabled
+isis                   13         disabled
+isis                   14         disabled
+isis                   15         disabled
+isis                   16         disabled
+itd                    1          disabled
+l2vpn                  1          disabled
+l3vpn                  1          disabled
+lacp                   1          enabled 
+ldap                   1          disabled
+ldp                    1          disabled
+license-smart          1          disabled
+license-smart-res      1          disabled
+lldp                   1          enabled 
+mpls-evpn              1          disabled
+mpls_oam               1          disabled
+mpls_static            1          disabled
+msdp                   1          disabled
+mvpn                   1          disabled
+mvrp                   1          disabled
+nat                    1          disabled
+nbm                    1          disabled
+netconf                1          disabled
+ngmvpn                 1          disabled
+ngoam                  1          disabled
+npiv                   1          disabled
+nve                    1          disabled
+nxapi                  1          enabled 
+nxsdk_app1             1          disabled
+nxsdk_app10            1          disabled
+nxsdk_app11            1          disabled
+nxsdk_app12            1          disabled
+nxsdk_app13            1          disabled
+nxsdk_app14            1          disabled
+nxsdk_app15            1          disabled
+nxsdk_app16            1          disabled
+nxsdk_app17            1          disabled
+nxsdk_app18            1          disabled
+nxsdk_app19            1          disabled
+nxsdk_app2             1          disabled
+nxsdk_app20            1          disabled
+nxsdk_app21            1          disabled
+nxsdk_app22            1          disabled
+nxsdk_app23            1          disabled
+nxsdk_app24            1          disabled
+nxsdk_app25            1          disabled
+nxsdk_app26            1          disabled
+nxsdk_app27            1          disabled
+nxsdk_app28            1          disabled
+nxsdk_app29            1          disabled
+nxsdk_app3             1          disabled
+nxsdk_app30            1          disabled
+nxsdk_app31            1          disabled
+nxsdk_app32            1          disabled
+nxsdk_app4             1          disabled
+nxsdk_app5             1          disabled
+nxsdk_app6             1          disabled
+nxsdk_app7             1          disabled
+nxsdk_app8             1          disabled
+nxsdk_app9             1          disabled
+nxsdk_mgr              1          disabled
+ofm                    1          disabled
+onep                   1          disabled
+openflow               1          disabled
+ospf                   1          enabled 
+ospf                   2          enabled(not-running)
+ospf                   3          enabled(not-running)
+ospf                   4          enabled(not-running)
+ospf                   5          enabled(not-running)
+ospf                   6          enabled(not-running)
+ospf                   7          enabled(not-running)
+ospf                   8          enabled(not-running)
+ospf                   9          enabled(not-running)
+ospf                   10         enabled(not-running)
+ospf                   11         enabled(not-running)
+ospf                   12         enabled(not-running)
+ospf                   13         enabled(not-running)
+ospf                   14         enabled(not-running)
+ospf                   15         enabled(not-running)
+ospf                   16         enabled(not-running)
+ospfv3                 1          disabled
+ospfv3                 2          disabled
+ospfv3                 3          disabled
+ospfv3                 4          disabled
+ospfv3                 5          disabled
+ospfv3                 6          disabled
+ospfv3                 7          disabled
+ospfv3                 8          disabled
+ospfv3                 9          disabled
+ospfv3                 10         disabled
+ospfv3                 11         disabled
+ospfv3                 12         disabled
+ospfv3                 13         disabled
+ospfv3                 14         disabled
+ospfv3                 15         disabled
+ospfv3                 16         disabled
+pbr                    1          disabled
+pim                    1          disabled
+pim6                   1          disabled
+plb                    1          disabled
+poe                    1          disabled
+private-vlan           1          disabled
+privilege              1          disabled
+ptp                    1          disabled
+restconf               1          disabled
+rip                    1          disabled
+rip                    2          disabled
+rip                    3          disabled
+rip                    4          disabled
+rise                   1          disabled
+scheduler              1          disabled
+scpServer              1          enabled 
+segment-routing        1          disabled
+sflow                  1          disabled
+sftpServer             1          disabled
+sla_responder          1          disabled
+sla_sender             1          disabled
+sla_twamp              1          disabled
+smart-channel          1          disabled
+srte                   1          disabled
+srv6                   1          disabled
+sshServer              1          enabled 
+tacacs                 1          disabled
+telemetry              1          disabled
+telnetServer           1          disabled
+tun_enc_mgr            1          disabled
+tunnel                 1          disabled
+udld                   1          disabled
+vmfex                  1          disabled
+vmtracker              1          disabled
+vni                    1          disabled
+vnseg_vlan             1          disabled
+vpc                    1          enabled 
+vrrp                   1          disabled
+vrrpv3                 1          disabled
+vtp                    1          disabled
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp l2vpn evpn summary' +++
+show bgp l2vpn evpn summary
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show nve vni summary' +++
+show nve vni summary
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show nve vni ingress-replication' +++
+show nve vni ingress-replication
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show nve peers' +++
+show nve peers
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show nve ethernet-segment' +++
+show nve ethernet-segment
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show nve multisite dci-links' +++
+show nve multisite dci-links
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show nve multisite fabric-links' +++
+show nve multisite fabric-links
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show l2route evpn ethernet-segment all' +++
+show l2route evpn ethernet-segment all
+ESI                      Orig Rtr. IP Addr  Prod  Ifindex      NFN Bitmap
+------------------------ -----------------  ----- ----------- ----------
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show l2route fl all' +++
+show l2route fl all
+Topology ID Peer-id     Flood List                              Label(VNI) Service Node
+----------- ----------- -------------------------------------- ------------ ------------
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show l2route topology detail' +++
+show l2route topology detail
+Flags:(L2cp)=L2 Ctrl Plane; (Dp)=Data Plane; (Imet)=Data Plane BGP IMET; (L3cp)=L3 Ctrl Plane; (Bfd)=BFD over Vxlan; (Bgp)=BGP EVPN; (Of)=Open Flow mode; (Mix)=Open Flow IR mixed mode; (Acst)=Anycast GW on spine;
+Topology ID   Topology Name   Attributes
+-----------   -------------   ----------
+4294967291    BARRIER         N/A       
+4294967294    GLOBAL          N/A       
+4294967295    ALL             N/A       
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show l2route evpn mac all detail' +++
+show l2route evpn mac all detail
+
+Flags -(Rmac):Router MAC (Stt):Static (L):Local (R):Remote (V):vPC link 
+(Dup):Duplicate (Spl):Split (Rcv):Recv (AD):Auto-Delete (D):Del Pending
+(S):Stale (C):Clear, (Ps):Peer Sync (O):Re-Originated (Nho):NH-Override
+(Pf):Permanently-Frozen, (Orp): Orphan
+
+Topology    Mac Address    Prod   Flags         Seq No     Next-Hops                              
+----------- -------------- ------ ------------- ---------- ---------------------------------------
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show l2route mac-ip all detail' +++
+show l2route mac-ip all detail
+Flags -(Rmac):Router MAC (Stt):Static (L):Local (R):Remote (V):vPC link 
+(Dup):Duplicate (Spl):Split (Rcv):Recv(D):Del Pending (S):Stale (C):Clear
+(Ps):Peer Sync (Ro):Re-Originated (Orp):Orphan 
+Topology    Mac Address    Host IP                                 Prod   Flags         Seq No     Next-Hops                              
+----------- -------------- --------------------------------------- ------ ---------- ---------- ---------------------------------------
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show l2route summary' +++
+show l2route summary
+L2ROUTE Summary
+Total Memory: 0           
+Number of Converged Tables: 50       
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp l2vpn evpn neighbors' +++
+show bgp l2vpn evpn neighbors
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp l2vpn evpn route-type 1' +++
+show bgp l2vpn evpn route-type 1
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp l2vpn evpn route-type 2' +++
+show bgp l2vpn evpn route-type 2
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp l2vpn evpn route-type 3' +++
+show bgp l2vpn evpn route-type 3
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp l2vpn evpn route-type 4' +++
+show bgp l2vpn evpn route-type 4
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show fabric multicast globals' +++
+show fabric multicast globals
+                   ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show fabric multicast ipv4 sa-ad-route vrf all' +++
+show fabric multicast ipv4 sa-ad-route vrf all
+                   ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show fabric multicast ipv4 l2-mroute vni all' +++
+show fabric multicast ipv4 l2-mroute vni all
+                   ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show vrf' +++
+show vrf
+VRF-Name                           VRF-ID State   Reason                        
+default                                 1 Up      --                            
+management                              2 Up      --                            
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show forwarding distribution multicast route vrf all' +++
+show forwarding distribution multicast route vrf all
+
+IPv4 Multicast Routing Table for table-id: 1
+Total number of groups: 0
+Legend:
+   C = Control Route
+   D = Drop Route
+   G = Local Group (directly connected receivers)
+   O = Drop on RPF Fail
+   P = Punt to supervisor
+   L = SRC behind L3
+   d = Decap Route
+   Es = Extranet src entry
+   Er = Extranet recv entry
+   Nf = VPC None-Forwarder
+   dm = MVPN Decap Route
+   em = MVPN Encap Route
+   IPre = Ingress Service-reflect Pre
+   EPre = Egress Service-reflect Pre
+   Pst = Ingress/Egress Service-reflect Post
+
+IPv4 Multicast Routing Table for table-id: wildcard
+Total number of groups: 4
+Legend:
+   C = Control Route
+   D = Drop Route
+   G = Local Group (directly connected receivers)
+   O = Drop on RPF Fail
+   P = Punt to supervisor
+   L = SRC behind L3
+   d = Decap Route
+   Es = Extranet src entry
+   Er = Extranet recv entry
+   Nf = VPC None-Forwarder
+   dm = MVPN Decap Route
+   em = MVPN Encap Route
+   IPre = Ingress Service-reflect Pre
+   EPre = Egress Service-reflect Pre
+   Pst = Ingress/Egress Service-reflect Post
+
+  (*, 224.0.0.0/4), RPF Interface: NULL, flags: D
+    Upstream Nbr: 0.0.0.0
+    Received Packets: 0 Bytes: 0 
+    Number of Outgoing Interfaces: 0
+    Null Outgoing Interface List
+
+  (*, 224.0.0.0/24), RPF Interface: NULL, flags: CP
+    Upstream Nbr: 0.0.0.0
+    Received Packets: 0 Bytes: 0 
+    Number of Outgoing Interfaces: 0
+    Null Outgoing Interface List
+
+  (*, 224.0.1.39/32), RPF Interface: NULL, flags: CP
+    Upstream Nbr: 0.0.0.0
+    Received Packets: 0 Bytes: 0 
+    Number of Outgoing Interfaces: 0
+    Null Outgoing Interface List
+
+  (*, 224.0.1.40/32), RPF Interface: NULL, flags: CP
+    Upstream Nbr: 0.0.0.0
+    Received Packets: 0 Bytes: 0 
+    Number of Outgoing Interfaces: 0
+    Null Outgoing Interface List
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn route-type 1 vrf all' +++
+show bgp ipv4 mvpn route-type 1 vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn route-type 2 vrf all' +++
+show bgp ipv4 mvpn route-type 2 vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn route-type 3 vrf all' +++
+show bgp ipv4 mvpn route-type 3 vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn route-type 4 vrf all' +++
+show bgp ipv4 mvpn route-type 4 vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn route-type 5 vrf all' +++
+show bgp ipv4 mvpn route-type 5 vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn route-type 6 vrf all' +++
+show bgp ipv4 mvpn route-type 6 vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn route-type 7 vrf all' +++
+show bgp ipv4 mvpn route-type 7 vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show bgp ipv4 mvpn sa-ad detail vrf all' +++
+show bgp ipv4 mvpn sa-ad detail vrf all
+             ^
+% Invalid command at '^' marker.
+nxos0# 
+Could not learn <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnSaadDetail'>
+Invalid command has been executed
++====================================================================================================================================================+
+| Commands for learning feature 'Vxlan'                                                                                                              |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_feature.ShowFeature'>                                                                                   |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowL2routeTopologyDetail'>                                                                       |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowL2routeSummary'>                                                                              |
+|   cmd: <class 'genie.libs.parser.nxos.show_mcast.ShowForwardingDistributionMulticastRoute'>, arguments: {'vrf':'all'}                              |
+|====================================================================================================================================================|
+| - Commands not accepted on the device                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowNveVni'>                                                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowRunningConfigNvOverlay'>                                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpL2vpnEvpnSummary'>                                                                           |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowNveVniSummary'>                                                                               |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowNveVniIngressReplication'>                                                                    |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowNvePeers'>                                                                                    |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowNveEthernetSegment'>                                                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowNveMultisiteDciLinks'>                                                                        |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowNveMultisiteFabricLinks'>                                                                     |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpL2vpnEvpnNeighbors'>                                                                         |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpL2vpnEvpnRouteType'>, arguments: {'route_type':'1'}                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpL2vpnEvpnRouteType'>, arguments: {'route_type':'2'}                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpL2vpnEvpnRouteType'>, arguments: {'route_type':'3'}                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpL2vpnEvpnRouteType'>, arguments: {'route_type':'4'}                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowFabricMulticastGlobals'>                                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowFabricMulticastIpSaAdRoute'>, arguments: {'vrf':'all'}                                        |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowFabricMulticastIpL2Mroute'>, arguments: {'vni':'all'}                                         |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnRouteType'>, arguments: {'route_type':'1','vrf':'all'}                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnRouteType'>, arguments: {'route_type':'2','vrf':'all'}                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnRouteType'>, arguments: {'route_type':'3','vrf':'all'}                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnRouteType'>, arguments: {'route_type':'4','vrf':'all'}                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnRouteType'>, arguments: {'route_type':'5','vrf':'all'}                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnRouteType'>, arguments: {'route_type':'6','vrf':'all'}                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnRouteType'>, arguments: {'route_type':'7','vrf':'all'}                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_bgp.ShowBgpIpMvpnSaadDetail'>, arguments: {'vrf':'all'}                                                 |
+|====================================================================================================================================================|
+| - Commands with empty output                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowL2routeEvpnEternetSegmentAll'>                                                                |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowL2routeFlAll'>                                                                                |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowL2routeMacAllDetail'>                                                                         |
+|   cmd: <class 'genie.libs.parser.nxos.show_vxlan.ShowL2routeMacIpAllDetail'>                                                                       |
+|====================================================================================================================================================|

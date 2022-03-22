@@ -1,0 +1,41 @@
++++ nxos2 with via 'cli': executing command 'show mac address-table aging-time' +++
+show mac address-table aging-time
+Aging Time
+----------
+    1800
+nxos2# 
++++ nxos2 with via 'cli': executing command 'show mac address-table' +++
+show mac address-table
+Legend: 
+	* - primary entry, G - Gateway MAC, (R) - Routed MAC, O - Overlay MAC
+	age - seconds since last seen,+ - primary entry using vPC Peer-Link,
+	(T) - True, (F) - False, C - ControlPlane MAC, ~ - vsan
+   VLAN     MAC Address      Type      age     Secure NTFY Ports
+---------+-----------------+--------+---------+------+----+------------------
+G   10     0000.0c9f.f00a   static   -         F      F    vPC Peer-Link(R)
+G   20     0000.0c9f.f014   static   -         F      F    vPC Peer-Link(R)
+G    -     5210.28d8.1b08   static   -         F      F    sup-eth1(R)
+G   10     5210.28d8.1b08   static   -         F      F    sup-eth1(R)
+G   20     5210.28d8.1b08   static   -         F      F    sup-eth1(R)
+*   10     521a.bddc.1b08   static   -         F      F    vPC Peer-Link(R)
+*   20     521a.bddc.1b08   static   -         F      F    vPC Peer-Link(R)
+nxos2# 
++++ nxos2 with via 'cli': executing command 'show system internal l2fwder Mac' +++
+show system internal l2fwder Mac
+                               ^
+% Invalid command at '^' marker.
+nxos2# 
+Could not learn <class 'genie.libs.parser.nxos.show_system.ShowSystemInternalL2fwderMac'>
+Invalid command has been executed
++====================================================================================================================================================+
+| Commands for learning feature 'Fdb'                                                                                                                |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_fdb.ShowMacAddressTableAgingTime'>                                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_fdb.ShowMacAddressTable'>, arguments: {'address':'','interface':'','vlan':''}                           |
+|====================================================================================================================================================|
+| - Commands not accepted on the device                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_system.ShowSystemInternalL2fwderMac'>                                                                   |
+|====================================================================================================================================================|

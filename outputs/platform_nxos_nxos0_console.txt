@@ -1,0 +1,296 @@
++++ nxos0 with via 'cli': executing command 'show inventory' +++
+show inventory
+NAME: "Chassis",  DESCR: "Nexus9000 C9300v Chassis"              
+PID: N9K-C9300v          ,  VID:     ,  SN: 9K0LYG26ZUC          
+
+NAME: "Slot 1",  DESCR: "Nexus 9000v 64 port Ethernet Module"   
+PID: N9K-X9364v          ,  VID:     ,  SN: 9AO1VC2QYYH          
+
+NAME: "Slot 27",  DESCR: "Supervisor Module"                     
+PID: N9K-vSUP            ,  VID:     ,  SN: 9WTIZCSWN2Z          
+
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show vdc detail' +++
+show vdc detail
+
+vdc id: 1
+vdc name: nxos0
+vdc state: active
+vdc mac address: 52:0a:8c:0d:1b:08
+vdc ha policy: RELOAD
+vdc dual-sup ha policy: SWITCHOVER
+vdc boot Order: 1
+vdc create time: Mon Mar 21 07:19:24 2022
+vdc reload count: 0
+vdc restart count: 0
+vdc type: Ethernet
+vdc supported linecards: None
+
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show vdc membership status' +++
+show vdc membership status
+Flags : b - breakout port
+---------------------------------
+
+vdc_id: 0 vdc_name: Unallocated interfaces:
+Port        Status      
+----        ----------  
+
+vdc_id: 1 vdc_name: nxos0 interfaces:
+Port        Status      
+----        ----------  
+Eth1/1      OK
+Eth1/2      OK
+Eth1/3      OK
+Eth1/4      OK
+Eth1/5      OK
+Eth1/6      OK
+Eth1/7      OK
+Eth1/8      OK
+Eth1/9      OK
+Eth1/10     OK
+Eth1/11     OK
+Eth1/12     OK
+Eth1/13     OK
+Eth1/14     OK
+Eth1/15     OK
+Eth1/16     OK
+Eth1/17     OK
+Eth1/18     OK
+Eth1/19     OK
+Eth1/20     OK
+Eth1/21     OK
+Eth1/22     OK
+Eth1/23     OK
+Eth1/24     OK
+Eth1/25     OK
+Eth1/26     OK
+Eth1/27     OK
+Eth1/28     OK
+Eth1/29     OK
+Eth1/30     OK
+Eth1/31     OK
+Eth1/32     OK
+Eth1/33     OK
+Eth1/34     OK
+Eth1/35     OK
+Eth1/36     OK
+Eth1/37     OK
+Eth1/38     OK
+Eth1/39     OK
+Eth1/40     OK
+Eth1/41     OK
+Eth1/42     OK
+Eth1/43     OK
+Eth1/44     OK
+Eth1/45     OK
+Eth1/46     OK
+Eth1/47     OK
+Eth1/48     OK
+Eth1/49     OK
+Eth1/50     OK
+Eth1/51     OK
+Eth1/52     OK
+Eth1/53     OK
+Eth1/54     OK
+Eth1/55     OK
+Eth1/56     OK
+Eth1/57     OK
+Eth1/58     OK
+Eth1/59     OK
+Eth1/60     OK
+Eth1/61     OK
+Eth1/62     OK
+Eth1/63     OK
+Eth1/64     OK
+
+
+
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show module' +++
+show module
+Mod Ports             Module-Type                      Model           Status
+--- ----- ------------------------------------- --------------------- ---------
+1    64   Nexus 9000v 64 port Ethernet Module   N9K-X9364v            ok        
+27   0    Virtual Supervisor Module             N9K-vSUP              active *  
+
+Mod  Sw                       Hw    Slot
+---  ----------------------- ------ ----
+1    9.3(6)                   0.0    LC1 
+27   NA                       0.0    SUP1
+
+
+Mod  MAC-Address(es)                         Serial-Num
+---  --------------------------------------  ----------
+1    52-0a-8c-0d-01-01 to 52-0a-8c-0d-01-40  9AO1VC2QYYH
+27   52-0a-8c-0d-1b-01 to 52-0a-8c-0d-1b-12  9WTIZCSWN2Z
+
+Mod  Online Diag Status
+---  ------------------
+1    Pass
+27   Pass
+
+* this terminal session 
+nxos0# 
++++ nxos0 with via 'cli': executing command 'dir' +++
+dir
+       4096    Jan 15 05:14:42 2022  .rpmstore/
+       4096    Jan 15 05:15:06 2022  .swtam/
+          0    Jan 15 05:14:59 2022  bootflash_sync_list
+       4096    Jan 15 05:15:09 2022  eem_snapshots/
+       4096    Jan 15 05:15:05 2022  evt_log_snapshot/
+ 1973174784    Nov 10 11:25:53 2020  nxos.9.3.6.bin
+          0    Jan 15 06:19:26 2022  platform-sdk.cmd
+       4096    Jan 15 05:15:54 2022  scripts/
+       4096    Jan 15 05:15:35 2022  virtual-instance/
+
+Usage for bootflash://
+ 1991131136 bytes used
+ 2195578880 bytes free
+ 4186710016 bytes total
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show version' +++
+show version
+Cisco Nexus Operating System (NX-OS) Software
+TAC support: http://www.cisco.com/tac
+Documents: http://www.cisco.com/en/US/products/ps9372/tsd_products_support_series_home.html
+Copyright (c) 2002-2020, Cisco Systems, Inc. All rights reserved.
+The copyrights to certain works contained herein are owned by
+other third parties and are used and distributed under license.
+Some parts of this software are covered under the GNU Public
+License. A copy of the license is available at
+http://www.gnu.org/licenses/gpl.html.
+
+Nexus 9000v is a demo version of the Nexus Operating System
+
+Software
+  BIOS: version 
+ NXOS: version 9.3(6)
+  BIOS compile time:  
+  NXOS image file is: bootflash:///nxos.9.3.6.bin
+  NXOS compile time:  11/9/2020 23:00:00 [11/10/2020 11:00:21]
+
+
+Hardware
+  cisco Nexus9000 C9300v Chassis 
+  Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz with 8161040 kB of memory.
+  Processor Board ID 9WTIZCSWN2Z
+
+  Device name: nxos0
+  bootflash:    4287040 kB
+Kernel uptime is 0 day(s), 0 hour(s), 37 minute(s), 58 second(s)
+
+Last reset 
+  Reason: Unknown
+  System version: 
+  Service: 
+
+plugin
+  Core Plugin, Ethernet Plugin
+
+Active Package(s):
+	
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show install active' +++
+show install active
+Boot Image:
+	NXOS Image: bootflash:///nxos.9.3.6.bin
+
+Active Packages:
+
+Active Base Packages:
+	bfd-2.0.0.0-9.3.6.lib32_n9000
+	bgp-2.0.0.0-9.3.6.lib32_n9000
+	container-tracker-2.0.0.0-9.3.6.lib32_n9000
+	dme-2.0.0.0-9.3.6.lib32_n9000
+	eigrp-2.0.0.0-9.3.6.lib32_n9000
+	ext-eth-2.0.0.0-9.3.6.lib32_n9000
+	fcoe-2.0.0.0-9.3.6.lib32_n9000
+	fhrp-2.0.0.0-9.3.6.lib32_n9000
+	guestshell-2.0.0.0-9.3.6.lib32_n9000
+	hw_telemetry-2.0.0.0-9.3.6.lib32_n9000
+	icam-2.0.0.0-9.3.6.lib32_n9000
+	isis-2.0.0.0-9.3.6.lib32_n9000
+	lacp-2.0.0.0-9.3.6.lib32_n9000
+	libnxsdk-2.0.0.0-9.3.6.lib32_n9000
+	lldp-2.0.0.0-9.3.6.lib32_n9000
+	mcast-2.0.0.0-9.3.6.lib32_n9000
+	mpls-2.0.0.0-9.3.6.lib32_n9000
+	mtx-device-2.0.0.0-9.3.6.lib32_n9000
+	mtx-grpc-agent-2.1.0.0-9.3.6.lib32_n9000
+	mtx-infra-2.0.0.0-9.3.6.lib32_n9000
+	mtx-netconf-agent-2.0.0.0-9.3.6.lib32_n9000
+	mtx-restconf-agent-2.0.0.0-9.3.6.lib32_n9000
+	mtx-telemetry-2.0.0.0-9.3.6.lib32_n9000
+	nbproxy-2.0.0.0-9.3.6.lib32_n9000
+	nia-1.4.1.1-9.3.6.lib32_n9000
+	ntp-2.0.0.0-9.3.6.lib32_n9000
+	nxos-ssh-2.0.0.0-9.3.6.lib32_n9000
+	nxsdk-2.0.0.0-9.3.6.lib32_n9000
+	nxsdk_rpc_server-1.0-2.5.0.x86_64
+	ospf-2.0.0.0-9.3.6.lib32_n9000
+	rip-2.0.0.0-9.3.6.lib32_n9000
+	sdaa-2.0.0.0-9.3.6.lib32_n9000
+	services-2.0.0.0-9.3.6.lib32_n9000
+	snmp-2.0.0.0-9.3.6.lib32_n9000
+	sr-2.0.0.0-9.3.6.lib32_n9000
+	svi-2.0.0.0-9.3.6.lib32_n9000
+	tacacs-2.0.0.0-9.3.6.lib32_n9000
+	telemetry-2.3.4.0-9.3.6.lib32_n9000
+	virtualization-2.0.0.0-9.3.6.lib32_n9000
+	vtp-2.0.0.0-9.3.6.lib32_n9000
+	vxlan-2.0.0.0-9.3.6.lib32_n9000
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show redundancy status' +++
+show redundancy status
+Redundancy mode
+---------------
+      administrative:	HA
+         operational:	None
+
+This supervisor (sup-27)
+-----------------------
+    Redundancy state:	Active
+    Supervisor state:	Active
+      Internal state:	Active with no standby
+
+Other supervisor (sup-28)
+------------------------
+    Redundancy state:	N/A
+
+    Supervisor state:	N/A
+      Internal state:	N/A
+
+System start time:          Mon Mar 21 07:19:22 2022
+
+System uptime:              0 days, 0 hours, 34 minutes, 21 seconds
+Kernel uptime:              0 days, 0 hours, 38 minutes, 0 seconds
+Active supervisor uptime:   0 days, 0 hours, 34 minutes, 21 seconds
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show boot' +++
+show boot
+Current Boot Variables:
+sup-1
+NXOS variable = bootflash:/nxos.9.3.6.bin
+Boot POAP Disabled
+
+Boot Variables on next reload:
+sup-1
+NXOS variable = bootflash:/nxos.9.3.6.bin
+Boot POAP Disabled
+nxos0# 
++====================================================================================================================================================+
+| Commands for learning feature 'Platform'                                                                                                           |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowInventory'>                                                                                |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowVdcDetail'>                                                                                |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowVdcMembershipStatus'>                                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowModule'>                                                                                   |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.Dir'>                                                                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowVersion'>                                                                                  |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowInstallActive'>                                                                            |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowRedundancyStatus'>                                                                         |
+|   cmd: <class 'genie.libs.parser.nxos.show_platform.ShowBoot'>                                                                                     |
+|====================================================================================================================================================|

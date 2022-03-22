@@ -1,0 +1,20 @@
++++ nxos3 with via 'cli': executing command 'show ip msdp sa-cache detail vrf all' +++
+show ip msdp sa-cache detail vrf all
+                ^
+% Invalid command at '^' marker.
+nxos3# 
++++ nxos3 with via 'cli': executing command 'show ip msdp peer vrf all' +++
+show ip msdp peer vrf all
+                ^
+% Invalid command at '^' marker.
+nxos3# 
+Could not learn <class 'genie.libs.parser.nxos.show_msdp.ShowIpMsdpPeerVrf'>
+Invalid command has been executed
++====================================================================================================================================================+
+| Commands for learning feature 'Msdp'                                                                                                               |
++====================================================================================================================================================+
+| - Commands not accepted on the device                                                                                                              |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_msdp.ShowIpMsdpSaCacheDetailVrf'>, arguments: {'vrf':'all'}                                             |
+|   cmd: <class 'genie.libs.parser.nxos.show_msdp.ShowIpMsdpPeerVrf'>, arguments: {'vrf':'all'}                                                      |
+|====================================================================================================================================================|

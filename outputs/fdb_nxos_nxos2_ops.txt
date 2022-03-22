@@ -1,0 +1,84 @@
+{
+  "_exclude": [],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "mac_aging_time": 1800,
+    "mac_table": {
+      "vlans": {
+        "10": {
+          "mac_addresses": {
+            "0000.0c9f.f00a": {
+              "interfaces": {
+                "vPC Peer-Link(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "vPC Peer-Link(R)"
+                }
+              },
+              "mac_address": "0000.0c9f.f00a"
+            },
+            "5210.28d8.1b08": {
+              "interfaces": {
+                "Sup-eth1(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "Sup-eth1(R)"
+                }
+              },
+              "mac_address": "5210.28d8.1b08"
+            },
+            "521a.bddc.1b08": {
+              "interfaces": {
+                "vPC Peer-Link(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "vPC Peer-Link(R)"
+                }
+              },
+              "mac_address": "521a.bddc.1b08"
+            }
+          },
+          "vlan": "10"
+        },
+        "20": {
+          "mac_addresses": {
+            "0000.0c9f.f014": {
+              "interfaces": {
+                "vPC Peer-Link(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "vPC Peer-Link(R)"
+                }
+              },
+              "mac_address": "0000.0c9f.f014"
+            },
+            "5210.28d8.1b08": {
+              "interfaces": {
+                "Sup-eth1(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "Sup-eth1(R)"
+                }
+              },
+              "mac_address": "5210.28d8.1b08"
+            },
+            "521a.bddc.1b08": {
+              "interfaces": {
+                "vPC Peer-Link(R)": {
+                  "age": "-",
+                  "entry_type": "static",
+                  "interface": "vPC Peer-Link(R)"
+                }
+              },
+              "mac_address": "521a.bddc.1b08"
+            }
+          },
+          "vlan": "20"
+        }
+      }
+    }
+  }
+}

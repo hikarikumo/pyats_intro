@@ -1,0 +1,20 @@
++++ nxos3 with via 'cli': executing command 'show ip static-route' +++
+show ip static-route
+Static-route for VRF "default"(1)
+IPv4 Unicast Static Routes:
+
+nxos3# 
++++ nxos3 with via 'cli': executing command 'show ipv6 static-route' +++
+show ipv6 static-route
+IPv6 Configured Static Routes for VRF "default"(1)
+
+
+nxos3# 
++====================================================================================================================================================+
+| Commands for learning feature 'StaticRouting'                                                                                                      |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_static_routing.ShowIpStaticRoute'>                                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_static_routing.ShowIpv6StaticRoute'>                                                                    |
+|====================================================================================================================================================|

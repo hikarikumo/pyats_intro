@@ -1,0 +1,77 @@
+{
+  "_exclude": [],
+  "attributes": null,
+  "commands": null,
+  "connections": null,
+  "context_manager": {},
+  "info": {
+    "Vlan10": {
+      "address_family": {
+        "ipv4": {
+          "version": {
+            "2": {
+              "groups": {
+                "10": {
+                  "active_ip_address": "192.168.10.4",
+                  "active_router": "192.168.10.4",
+                  "authentication": "cisco",
+                  "group_number": 10,
+                  "hsrp_router_state": "standby",
+                  "primary_ipv4_address": {
+                    "address": "192.168.10.1",
+                    "virtual_ip_learn": false
+                  },
+                  "priority": 100,
+                  "standby_router": "local",
+                  "timers": {
+                    "hello_msec_flag": false,
+                    "hello_sec": 3,
+                    "hold_msec_flag": false,
+                    "hold_sec": 10
+                  },
+                  "virtual_mac_address": "0000.0c9f.f00a"
+                }
+              }
+            }
+          }
+        }
+      },
+      "interface": "Vlan10",
+      "use_bia": false
+    },
+    "Vlan20": {
+      "address_family": {
+        "ipv4": {
+          "version": {
+            "2": {
+              "groups": {
+                "20": {
+                  "active_ip_address": "192.168.20.4",
+                  "active_router": "192.168.20.4",
+                  "authentication": "cisco",
+                  "group_number": 20,
+                  "hsrp_router_state": "standby",
+                  "primary_ipv4_address": {
+                    "address": "192.168.20.1",
+                    "virtual_ip_learn": false
+                  },
+                  "priority": 100,
+                  "standby_router": "local",
+                  "timers": {
+                    "hello_msec_flag": false,
+                    "hello_sec": 3,
+                    "hold_msec_flag": false,
+                    "hold_sec": 10
+                  },
+                  "virtual_mac_address": "0000.0c9f.f014"
+                }
+              }
+            }
+          }
+        }
+      },
+      "interface": "Vlan20",
+      "use_bia": false
+    }
+  }
+}

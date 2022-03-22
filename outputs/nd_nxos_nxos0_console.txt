@@ -1,0 +1,48 @@
++++ nxos0 with via 'cli': executing command 'show ipv6 neighbor detail vrf all' +++
+show ipv6 neighbor detail vrf all
+No. of Adjacency hit with type INVALID: Packet count 0, Byte count 0
+No. of Adjacency hit with type GLOBAL DROP: Packet count 0, Byte count 0
+No. of Adjacency hit with type GLOBAL PUNT: Packet count 0, Byte count 0
+No. of Adjacency hit with type GLOBAL GLEAN: Packet count 0, Byte count 0
+No. of Adjacency hit with type GLEAN: Packet count 0, Byte count 0
+No. of Adjacency hit with type NORMAL: Packet count 0, Byte count 0
+
+Adjacency statistics last updated before: never
+
+IPv6 Adjacency Table for all VRFs
+Total number of entries: 0
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show ipv6 nd interface vrf all' +++
+show ipv6 nd interface vrf all
+ICMPv6 ND Interfaces for VRF "default"
+
+ICMPv6 ND Interfaces for VRF "management"
+
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show ipv6 routers vrf all' +++
+show ipv6 routers vrf all
+nxos0# 
++++ nxos0 with via 'cli': executing command 'show ipv6 icmp neighbor detail vrf all' +++
+show ipv6 icmp neighbor detail vrf all
+
+Flags: + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+
+ICMPv6 Adjacency Table for all VRFs 
+Address         Age       MAC Address     State      Interface  Phy-Interface
+nxos0# 
+Could not learn <class 'genie.libs.parser.nxos.show_nd.ShowIpv6IcmpNeighborDetail'>
+Parser Output is empty
++====================================================================================================================================================+
+| Commands for learning feature 'Nd'                                                                                                                 |
++====================================================================================================================================================+
+| - Parsed commands                                                                                                                                  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_nd.ShowIpv6NeighborDetail'>, arguments: {'vrf':'all'}                                                   |
+|   cmd: <class 'genie.libs.parser.nxos.show_nd.ShowIpv6NdInterface'>, arguments: {'interface':'','vrf':'all'}                                       |
+|====================================================================================================================================================|
+| - Commands with empty output                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_nd.ShowIpv6Routers'>, arguments: {'vrf':'all'}                                                          |
+|   cmd: <class 'genie.libs.parser.nxos.show_nd.ShowIpv6IcmpNeighborDetail'>, arguments: {'interface':'','vrf':'all'}                                |
+|====================================================================================================================================================|

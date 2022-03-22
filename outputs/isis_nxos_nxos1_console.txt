@@ -1,0 +1,38 @@
++++ nxos1 with via 'cli': executing command 'show isis vrf all' +++
+show isis vrf all
+             ^
+% Invalid parameter detected at '^' marker.
+nxos1# 
++++ nxos1 with via 'cli': executing command 'show isis interface vrf all' +++
+show isis interface vrf all
+             ^
+% Invalid parameter detected at '^' marker.
+nxos1# 
++++ nxos1 with via 'cli': executing command 'show isis adjacency vrf all' +++
+show isis adjacency vrf all
+             ^
+% Invalid parameter detected at '^' marker.
+nxos1# 
++++ nxos1 with via 'cli': executing command 'show isis hostname detail vrf all' +++
+show isis hostname detail vrf all
+             ^
+% Invalid parameter detected at '^' marker.
+nxos1# 
++++ nxos1 with via 'cli': executing command 'show isis database detail vrf all' +++
+show isis database detail vrf all
+             ^
+% Invalid parameter detected at '^' marker.
+nxos1# 
+Could not learn <class 'genie.libs.parser.nxos.show_isis.ShowIsisDatabaseDetail'>
+Parser Output is empty
++====================================================================================================================================================+
+| Commands for learning feature 'Isis'                                                                                                               |
++====================================================================================================================================================+
+| - Commands with empty output                                                                                                                       |
+|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|   cmd: <class 'genie.libs.parser.nxos.show_isis.ShowIsis'>, arguments: {'vrf':'all'}                                                               |
+|   cmd: <class 'genie.libs.parser.nxos.show_isis.ShowIsisInterface'>, arguments: {'vrf':'all'}                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_isis.ShowIsisAdjacency'>, arguments: {'vrf':'all'}                                                      |
+|   cmd: <class 'genie.libs.parser.nxos.show_isis.ShowIsisHostnameDetail'>, arguments: {'vrf':'all'}                                                 |
+|   cmd: <class 'genie.libs.parser.nxos.show_isis.ShowIsisDatabaseDetail'>, arguments: {'vrf':'all'}                                                 |
+|====================================================================================================================================================|

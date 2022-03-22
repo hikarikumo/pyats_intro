@@ -1,0 +1,22 @@
+'{"Building configuration...": {}, "Current configuration : 1583 bytes": {}, "version
+  15.7": {}, "service timestamps debug datetime msec": {}, "service timestamps log
+  datetime msec": {}, "no service password-encryption": {}, "hostname R1": {}, "boot-start-marker":
+  {}, "boot-end-marker": {}, "no logging console": {}, "enable secret 5 $1$sgwm$DZpqqakhag/N.fYXdPSHT1":
+  {}, "aaa new-model": {}, "aaa authentication login default local": {}, "aaa session-id
+  common": {}, "clock timezone EET 2 0": {}, "mmi polling-interval 60": {}, "no mmi
+  auto-configure": {}, "no mmi pvc": {}, "mmi snmp-timeout 180": {}, "no ip domain
+  lookup": {}, "ip domain name lab.brmavi.ru": {}, "ip cef": {}, "no ipv6 cef": {},
+  "multilink bundle-name authenticated": {}, "username cisco privilege 15 secret 5
+  $1$s1at$0e2XRPiCANKcKy/AWhgTo1": {}, "redundancy": {}, "interface Ethernet0/0":
+  {"ip address 172.16.244.101 255.255.255.0 secondary": {}, "ip address 192.168.100.101
+  255.255.255.0": {}, "duplex auto": {}}, "interface Ethernet0/1": {"no ip address":
+  {}, "shutdown": {}, "duplex auto": {}}, "interface Ethernet0/2": {"no ip address":
+  {}, "shutdown": {}, "duplex auto": {}}, "interface Ethernet0/3": {"no ip address":
+  {}, "shutdown": {}, "duplex auto": {}}, "ip forward-protocol nd": {}, "no ip http
+  server": {}, "no ip http secure-server": {}, "ip route 172.16.244.0 255.255.255.0
+  10.255.255.12": {}, "ip ssh version 2": {}, "logging host 10.1.1.1": {}, "ipv6 ioam
+  timestamp": {}, "control-plane": {}, "alias configure sh do sh": {}, "alias exec
+  ospf sh run | s ^router ospf": {}, "line con 0": {"exec-timeout 0 0": {}, "privilege
+  level 15": {}, "logging synchronous": {}}, "line aux 0": {}, "line vty 0 4": {"privilege
+  level 15": {}, "transport input all": {}}, "ntp server 34.202.215.187": {}, "ntp
+  server pool.ntp.org": {}, "end": {}}'
